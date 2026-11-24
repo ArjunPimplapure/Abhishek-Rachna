@@ -65,7 +65,10 @@ export function ClosingSection({ onReplayDoor }: ClosingSectionProps) {
 
           {/* Uploaded Wedding Logo/Monogram */}
           <div className="my-6">
-            <WeddingLogo sizeClass="h-24 w-24 sm:h-28 sm:w-28" />
+            <WeddingLogo
+              sizeClass="h-28 w-28 sm:h-32 sm:w-32"
+              className="border-2 border-[#B88A3B]/65 p-1.5 shadow-md"
+            />
           </div>
 
           <p className="text-sm uppercase tracking-[0.22em] text-[#7A5E52]">

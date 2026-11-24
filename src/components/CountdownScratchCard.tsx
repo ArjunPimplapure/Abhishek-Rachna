@@ -354,7 +354,10 @@ export function CountdownScratchCard() {
         >
           <div className="mb-4 flex items-center justify-center gap-3">
             <ShankhaMotif className="h-6 w-6 text-[#9E1B24]/85" />
-            <WeddingLogo sizeClass="h-12 w-12" />
+            <WeddingLogo
+              sizeClass="h-14 w-14"
+              className="border border-[#B88A3B]/60 p-1 shadow-sm"
+            />
             <ShankhaMotif className="h-6 w-6 -scale-x-100 text-[#9E1B24]/85" />
           </div>
 

@@ -274,17 +274,20 @@ export function EntranceDoor({ onEntered, onStartMusic }: EntranceDoorProps) {
                         : { scale: 1, opacity: 1 }
                     }
                     transition={{ duration: sealBroken ? 0.6 : 0.2 }}
-                    className="pointer-events-auto group relative flex h-32 w-32 sm:h-40 sm:w-40 cursor-pointer items-center justify-center rounded-full border-[3px] border-[#F3D786] bg-gradient-to-br from-[#BE232E] via-[#8E131D] to-[#4F080E] p-3 shadow-[0_18px_48px_rgba(12,2,2,0.85),0_0_32px_rgba(212,175,55,0.5)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#F3D786]"
+                    className="pointer-events-auto group relative flex h-34 w-34 sm:h-44 sm:w-44 cursor-pointer items-center justify-center rounded-full border-[3px] border-[#F3D786] bg-gradient-to-br from-[#BE232E] via-[#8E131D] to-[#4F080E] p-3 sm:p-3.5 shadow-[0_18px_48px_rgba(12,2,2,0.85),0_0_32px_rgba(212,175,55,0.5)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#F3D786]"
                   >
                     <span
                       aria-hidden="true"
-                      className="absolute inset-2 rounded-full border border-dashed border-[#F7E09E]/75"
+                      className="absolute inset-1.5 rounded-full border border-dashed border-[#F7E09E]/80"
                     />
                     <span
                       aria-hidden="true"
                       className="absolute -inset-3 rounded-full border border-[#E5C168]/40 transition-transform duration-300 group-hover:scale-110"
                     />
-                    <WeddingLogo sizeClass="h-24 w-24 sm:h-28 sm:w-28" />
+                    <WeddingLogo
+                      sizeClass="h-full w-full"
+                      className="border border-[#E5C168] shadow-inner"
+                    />
                   </motion.button>
                 </div>
 

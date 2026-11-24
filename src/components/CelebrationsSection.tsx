@@ -176,7 +176,10 @@ export function CelebrationsSection() {
             )}
           </div>
           <div className="md:col-span-7 flex flex-col items-center md:items-start text-center md:text-left px-1 sm:px-4">
-            <WeddingLogo sizeClass="h-16 w-16 mb-3" />
+            <WeddingLogo
+              sizeClass="h-18 w-18"
+              className="mb-3 border border-[#B88A3B]/60 p-1 shadow-sm"
+            />
             <h4 className="font-display text-2xl sm:text-3xl font-semibold text-[#5A0F16]">
               Shankha, Alpona &amp; Sacred Blessings
             </h4>

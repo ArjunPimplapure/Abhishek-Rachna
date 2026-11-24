@@ -56,8 +56,8 @@ export function HeroInvitation() {
           transition={{ duration: 0.85, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="my-7 flex justify-center"
         >
-          <div className="rounded-full border border-[#E5C168]/45 bg-[#FFFDF9]/95 p-3 shadow-[0_16px_45px_rgba(0,0,0,0.38)]">
-            <WeddingLogo sizeClass="h-24 w-24 sm:h-32 sm:w-32" />
+          <div className="rounded-full border-2 border-[#E5C168]/65 bg-[#FEFDFD] p-1.5 shadow-[0_16px_45px_rgba(0,0,0,0.38)]">
+            <WeddingLogo sizeClass="h-28 w-28 sm:h-36 sm:w-36" />
           </div>
         </motion.div>
 
