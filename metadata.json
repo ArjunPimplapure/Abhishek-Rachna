@@ -1,0 +1,6 @@
+{
+  "name": "Abhishek & Rachna — Bengali Wedding Invitation",
+  "description": "With the divine blessings of our elders and the love of our families, the Maity Family cordially invites you to celebrate the wedding of Abhishek Maity & Rachna Sarkar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
